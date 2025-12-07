@@ -16,8 +16,7 @@ Flask Deployed App/
 │── templates/
 │── venv/ (ignored in git)
 
-yaml
-Copy code
+
 
 ---
 
@@ -37,15 +36,13 @@ Open PowerShell in the project folder:
 
 py -3.8 -m venv venv
 
-yaml
-Copy code
+
 
 Activate it:
 
 venv\Scripts\activate
 
-yaml
-Copy code
+
 
 ---
 
@@ -53,8 +50,7 @@ Copy code
 
 pip install -r requirements.txt
 
-yaml
-Copy code
+
 
 This installs Flask, Torch, and other required packages.
 
@@ -66,9 +62,6 @@ Download the model:
 
 plant_disease_model_1.pt
 
-yaml
-Copy code
-
 Place it in the same folder as `app.py`.
 
 ---
@@ -79,15 +72,13 @@ Start the Flask server:
 
 python app.py
 
-arduino
-Copy code
+
 
 The app will run at:
 
 http://127.0.0.1:5000/
 
-yaml
-Copy code
+
 
 You can open it in any browser.
 
@@ -102,7 +93,7 @@ You can open it in any browser.
 @app.route('/')
 @app.route('/index')
 
-yaml
-Copy code
+
+
 
 - Make sure the model file is present before starting the server.

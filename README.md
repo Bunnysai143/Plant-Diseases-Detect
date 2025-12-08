@@ -60,7 +60,7 @@ This installs Flask, Torch, and other required packages.
 
 Download the model:
 
-plant_disease_model_1.pt [here](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A)
+plant_disease_model_1.pt [here](https://drive.google.com/drive/folders/1VRIUNjAnrZpxUjuyx14xN3TVSUz-DtrK?usp=sharing)
 
 
 Place it in the same folder as `app.py`.
@@ -98,4 +98,5 @@ You can open it in any browser.
 
 
 - Make sure the model file is present before starting the server.
+
 

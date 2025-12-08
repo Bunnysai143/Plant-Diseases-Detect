@@ -8,13 +8,14 @@ Upload an image → the model analyzes it → the app returns the predicted dise
 ## 📁 Project Structure
 
 Flask Deployed App/
-│── app.py
-│── CNN.py
-│── requirements.txt
-│── plant_disease_model_1.pt (added manually)
-│── static/
-│── templates/
-│── venv/ (ignored in git)
+├── app.py
+├── CNN.py
+├── requirements.txt
+├── plant_disease_model_1.pt (added manually)
+├── static/
+├── templates/
+└── venv/ (ignored in git)
+
 
 
 
@@ -98,5 +99,6 @@ You can open it in any browser.
 
 
 - Make sure the model file is present before starting the server.
+
 
 
